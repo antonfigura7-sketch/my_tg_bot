@@ -10,7 +10,7 @@ from telegram.ext import ConversationHandler
 # Стадии диалога
 FROM, AMOUNT, TO = range(3)
 
-TOKEN = "8427346657:AAF8ZxjRttJPAJh3iEZrNPgUkwMCeuuric0"
+TOKEN = "Token"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет, я бот Мороза!")
